@@ -1,0 +1,71 @@
+.header{
+  text-align:center;
+}
+body{
+  background-color: pink;
+}
+.partsbox{
+  border: solid;
+  border-width: thin; 
+  display: flex;
+}
+/*.kousin {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x:auto;
+  width:80vw;
+  height: 106px;
+  margin: 0 10vw 0 10vw;
+  border:2px dotted #ffffff;
+  color:#e8e8e8;
+  background-color:#5bc6ed;
+  line-height:1.5em;
+}*/
+.parts{
+  width: 50px;
+  height: 50px;
+  top: 0;
+}
+
+#cookingspace{
+  max-width: 100%;
+  position: relative;
+  border: solid;
+  border-color: red;
+  border-width: thin;
+  display: flex;
+  margin: 6px;
+}
+.base{
+    width: 50%;
+    margin: 6px;
+}
+
+.baseimg{
+  /*border: solid;*/
+  width: 100%;
+  height: auto;
+}
+#partsspace{
+  width: 25%;
+  border: solid;
+  border-color: rgb(43, 37, 37);
+  border-width: thin; 
+  display: grid;
+  grid-template-columns: repeat(3, minmax(1px, 1fr));
+  position: relative;
+  background-color: rgb(216, 212, 212);
+}
+.right{
+  width: 25%;
+  border: solid;
+  border-color: aqua;
+  border-width: thin;
+}
+.Ps{
+  height: 100%;
+  /*border: solid;
+  border-color: blue;
+  border-width: thin;*/
+  position: relative;
+}
