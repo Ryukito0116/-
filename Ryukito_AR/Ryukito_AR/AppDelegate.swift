@@ -5,7 +5,6 @@
 //  Created by 又吉琉稀斗 on 2020/06/03.
 //  Copyright © 2020 又吉琉稀斗. All rights reserved.
 //
-
 import UIKit
 
 @UIApplicationMain
@@ -16,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        sleep(4)
+        sleep(2)
         return true
     }
 
@@ -39,4 +38,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
